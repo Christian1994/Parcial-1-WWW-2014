@@ -1,1 +1,52 @@
+body{
+	margin: 0;
+}
 
+div{
+	border: 2px solid black;
+}
+
+.logo{
+	height: 40px;
+	width: 100%;
+}
+
+.logo h1{
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.browser{
+	height: 100%;
+	width: 300px;
+	float: left;
+}
+
+.browser h1, .browser ul li a{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: #434343;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.content{
+	float: left;
+}
+
+.content ul li{
+	width: 150px;
+	height: 200px;
+	border: 2px solid black;
+	font-family: Arial;
+	font-size: 11px;
+	text-align: center;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
