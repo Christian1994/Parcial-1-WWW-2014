@@ -1,13 +1,28 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 	<head>
-		<title></title>
+		<title>Uniflix</title>
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="multimedia.js"></script>
 	</head>
 	<body>
 		<div class="logo">
+			<h1>UNIFLIX</h1>
 		</div>
 		<div class="browser">
+			<h1>Browse</h1>
+			<ul>
+				<li><a href="#" onclick="printElementsByCathegory(tvshows); changeTitle(tvshows)">TV Shows</a></li>
+				<li><a href="#" onclick="printElementsByCathegory(anime); changeTitle(anime)">Anime</a></li>
+				<li><a href="#" onclick="printElementsByCathegory(classics); changeTitle(classics)">Classics</a></li>
+				<li><a href="#" onclick="printElementsByCathegory(documentaries); changeTitle(documentaries)">Documentaries</a></li>
+				<li><a href="#" onclick="printElementsByCathegory(drama); changeTitle(drama)">Drama</a></li>
+				<li><a href="#" onclick="printElementsByCathegory(horror); changeTitle(horror)">Horror</a></li>
+				<li><a href="#" onclick="printElementsByCathegory(romance); changeTitle(romance)">Romance</a></li>
+			</ul>
 		</div>
-		<div class="content">
-		</div>
+		<div id="content">
+			<div id="title">TV SHOWS</div>
+			</div>
 	</body>
 </html>
